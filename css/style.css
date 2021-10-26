@@ -12,7 +12,7 @@ html{
     scroll-behavior: smooth;
 }
 .body_wrapper{
-    background-color: #e7e1e1;
+    background-color: #e7e1e10a;
 }
 .navbar{
     background-color: #fafafa !important;
@@ -23,6 +23,7 @@ html{
 section{
   padding:80px 0px;
 }
+
  .home_text{
     padding-top:150px;
 }
@@ -104,7 +105,7 @@ section{
  }
 
  #about .tab_content{
-     padding-left: 20px;
+     padding: 20px;
      position:relative;
      margin-left: 15px;
      transition: 0.5s ease-in-out;
@@ -129,4 +130,37 @@ section{
     color: #fff;
     padding:10px 20px;
     border-radius: 20px 0px 10px 0px;
+}
+#skills .skill_box{
+    background-color: #e7e1e1;
+}
+
+
+#services .container .card{
+    background-color: #d1bfbff6 !important;
+    position: relative;
+    overflow: hidden;
+}
+.card_blob img{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+#services .icon_Box{
+    font-size: 80px;
+    color: #867f7f;
+    z-index: 1;
+}
+#services h3{
+    font-size:22px;
+    z-index: 1;
+    color: blue;
+    font-weight: 600;
+}
+#services p{
+    text-align: justify;
+    z-index: 1;
+    color: #111;
+    font-weight: 500;
+    font-family: sans-serif;
 }
