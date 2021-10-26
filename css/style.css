@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7e1e1;
+    font-family: 'Mulish', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.body_wrapper{
+    background-color: #e7e1e1;
+}
+.navbar{
+    background-color: #fafafa !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+section{
+  padding:80px 0px;
+}
+ .home_text{
+    padding-top:150px;
+}
+ .home_text h1{
+    font-weight: 700;
+}
+ .home_text p{
+     font-family: sans-serif;
+ }
+ .home_text .btn_section{
+     margin-top: 20px;
+ }
+ .home_text a{
+     text-decoration: none;
+     margin-right: 20px;
+     background-color: blue;
+     color: #fff;
+     padding:10px 20px;
+     border-radius: 20px 0px 10px 0px;
+ }
+
+
+ section .img_box{
+     text-align: center;
+     height: 320px;
+     width: 320px;
+     border-radius: 50%;
+     border:5px solid blue;
+     padding:20px;
+     position:relative;
+     overflow: hidden;
+     margin-top:40px;
+     background-color: #fff;
+ }
+ section .img_box img{
+     height: 320px;
+     width: 320px;
+     object-fit: cover;
+     object-position:center;
+     position: absolute;
+     left:0;
+     top:0;
+ }
+ #home .right_side{
+     display: flex;
+     justify-content: center;
+ }
+ #about h2{
+     margin-bottom: 20px;
+     font-weight: 500;
+ }
+ #about .right_side p{
+     text-align: justify;
+     
+ }
+ #about .right_side ul{
+     display: flex;
+ }
+ #about .right_side ul li{
+     list-style:none;
+     margin-right: 30px;
+     cursor: pointer;
+     font-weight: 600;
+     padding-bottom: 5px;
+     position: relative;
+ }
+ #about .right_side ul li::after{
+     content: '';
+     position:absolute;
+     height: 3px;
+     width: 0%;
+     background-color: blue;
+     left: 0;
+     bottom: 0;
+     transition: 0.5s ease all;
+ }
+ #about .right_side ul li:hover:after{
+     width: 100%;
+ }
+
+ #about .tab_content{
+     padding-left: 20px;
+     position:relative;
+     margin-left: 15px;
+     transition: 0.5s ease-in-out;
+ }
+ #about #exprience{
+     display: none;
+     transition: 0.5s ease-in-out;
+ }
+ #about .tab_content .line{
+     position:absolute;
+     left:0;
+     top:0;
+     width: 3px;
+     background-color: blue;
+     height: 100%;
+     
+ }
+ #about a{
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: blue;
+    color: #fff;
+    padding:10px 20px;
+    border-radius: 20px 0px 10px 0px;
+}
